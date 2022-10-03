@@ -9,3 +9,5 @@ To accomplish these two almost opposite ideas we have designed specific patterns
    - all functionality should be behind abstract interfaces
    - all code modules should have the possibility to exert backpressure - there should be no need to time code
    - Use any IP from any vendor, add abstract interface if not already given by vendor 
+
+Join hVHDL discord channel https://discord.gg/yzEvTB37
