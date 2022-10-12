@@ -16,4 +16,4 @@ There is an in-depth [explanation](https://hvhdl.readthedocs.io/en/latest/hvhdl_
 
 The example project has been built with Lattice Diamond, Xilinx Vivado, Intel Quartus and Efinix Efinity and tested with lattice ECP5 and Spartan 7 FPGAs. The build scripts can be found in the example projects repository.
 
-Join hVHDL discord https://discord.gg/yzEvTB37
+Join hVHDL discord https://discord.gg/d5QpjGse
