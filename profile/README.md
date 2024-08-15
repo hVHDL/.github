@@ -1,6 +1,6 @@
-High level synthesisable VHDL (hVHDL) is a set of coding patterns for standard VHDL which are designed to greatly increase abstraction level of VHDL source code using standard synthesis tools. The coding patterns are designed to support incremental design, testing and development of the VHDL source code. All code has been tested with an FPGA using Xilinx Vivado, ISE, Lattice Diamond, Intel Quartus or Efinix Efinity tools.
+High level synthesisable VHDL (hVHDL) is a set of coding patterns for standard VHDL which are designed to greatly increase abstraction level of VHDL source code using standard synthesis tools. The coding patterns are designed to support incremental design, testing and development of the VHDL source code. All code has been tested with an FPGA using Xilinx Vivado, Lattice Diamond and Radiant or Efinix Efinity tools.
 
-hVHDL project libraries found in repositories are written to be imported as git submodules to any (V)HDL project. To use the submodules, just add them to your project using Git, add sources to your project compile script, use them for an application, simulate and build. All of the syntesizable code is written in VHDL93, so they should be useable with any tool.
+hVHDL project libraries found in repositories are written to be imported as git submodules to any (V)HDL project. To use the submodules, just add them to your project using Git, add sources to your project compile script, use them for an application, simulate and build. All of the syntesizable code is written in VHDL2008, so they should be useable with any modern tool.
 
 Code in all modules is used through an abstracted interface which is implemented with records, functions and procedures. Code is written using records to specify the registers and a procedure is used to create the logic for the registers as well as accessing the functionality. Most code is thus used with just a signal of module record type and subroutines that then take this signal as argument.
 
@@ -14,6 +14,4 @@ For a quick start there is an [example project](https://github.com/hVHDL/hVHDL_e
 
 There is an in-depth [explanation](https://hvhdl.readthedocs.io/en/latest/hvhdl_example_project/hvhdl_example_project.html) which goes through the VHDL source code of the design.
 
-The example project has been built with Lattice Diamond, Xilinx Vivado, Intel Quartus and Efinix Efinity and tested with lattice ECP5 and Spartan 7 FPGAs. The build scripts can be found in the example projects repository.
-
-Join hVHDL [discord](https://discord.gg/FryENkTBQ6)
+The example project has been built with Lattice Diamond, Xilinx Vivado and Efinix Efinity and tested with lattice ECP5 and Spartan 7 FPGAs. The build scripts can be found in the example projects repository.
